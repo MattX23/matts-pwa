@@ -1,4 +1,4 @@
-const CACHE_NAME = 'matts-pwa-v1';
+const CACHE_NAME = 'matts-pwa-v2';
 const urlsToCache = [
     '/',
     '/index.html',
