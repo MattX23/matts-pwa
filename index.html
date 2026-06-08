@@ -21,11 +21,16 @@
             <p>This app can be installed on your phone and works offline.</p>
         </div>
         
-        <!-- Install Button - Critical for PWA installation -->
+        <!-- Install Button - shown on Chrome/Android via beforeinstallprompt -->
         <div id="install-container">
-            <button id="install-btn" class="install-button">
+            <button id="install-btn" class="install-button hidden">
                 📱 Install App
             </button>
+        </div>
+
+        <!-- iOS install instructions - shown only on iOS Safari -->
+        <div id="ios-install-banner" class="ios-banner hidden">
+            <p>To install this app, tap <strong>Share</strong> <span class="share-icon">⎙</span> then <strong>Add to Home Screen</strong>.</p>
         </div>
     </main>
     

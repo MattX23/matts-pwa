@@ -75,6 +75,25 @@ main {
     display: none;
 }
 
+.ios-banner {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 12px;
+    padding: 14px 20px;
+    margin-top: 16px;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.ios-banner .share-icon {
+    font-size: 1.1rem;
+}
+
+.ios-banner.hidden {
+    display: none;
+}
+
 footer {
     background: rgba(0, 0, 0, 0.2);
     padding: 15px;
