@@ -1,0 +1,3 @@
+# Cloudflare Pages redirect rules
+# This file is not strictly needed for PWA but useful for SPA routing
+/*    /index.html   200

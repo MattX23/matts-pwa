@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4a90d9">
+    <meta name="description" content="Matt's PWA - A simple progressive web app">
+    <title>Matt's PWA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+    <header>
+        <h1>Matt's PWA</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <p>Welcome to Matt's Progressive Web App!</p>
+            <p>This app can be installed on your phone and works offline.</p>
+        </div>
+        
+        <!-- Install Button - Critical for PWA installation -->
+        <div id="install-container">
+            <button id="install-btn" class="install-button">
+                📱 Install App
+            </button>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Built with Cloudflare Pages</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
